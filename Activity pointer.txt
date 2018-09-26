@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+
+int *a;
+
+int nil[5];
+int b;
+
+
+
+
+cout<<"Using Array"<<endl;
+
+for( b=0;b<5;b++)
+{
+	cout<<"arr + "<<b;
+cout<<"\t\t";
+cout<<&nil[b]<<endl<<endl;
+
+
+}
+
+cout<<"Using Pointer\n\n";
+for(b=0;b<5;b++)
+{
+	a=&nil[b];
+cout<<"ptr + "<<b;
+cout<<"\t\t";
+cout<<a<<endl<<endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+system("pause");
+}
